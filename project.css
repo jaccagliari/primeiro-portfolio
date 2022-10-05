@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: #1f8b78;
+}
+
+body {
+    background-image: url('./img-project/flwname3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.cabecalho ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 5px;
+}
+
+.cabecalho a {
+    color: #365959;
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative; 
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #96d9d270;
+    color: #385959;
+    border-radius: 7px;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-top: 0;
+}
+
+.cabecalho {
+    margin: 20px;
+}
+
+.container {
+    width: 800px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+    margin: 10px;
+    border: 1px solid #afd7ce6e;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.5s ;
+    text-align: center;
+}
+
+.img {
+    transition: 0.5s;
+}
+
+h1 {
+    /*color: #84BFB9;*/
+    font-size: 2rem;
+}
+
+.content {
+    padding: 10px;
+    text-align: center;
+}
+
+p {
+    color: #74888C;
+    transition: 0.5s;
+}
+
+.container a {
+   position: relative; 
+   display: inline-block;
+   padding: 10px 20px;
+   background-color: #B4D2D9;
+   color: #475459;
+   border-radius: 40px;
+   text-decoration: none;
+   transition: 0.5s;
+   margin-top: 20px;
+}
+
+.card:hover {
+    background-color: #D5F2EF;
+    color: #3f7777;
+    margin-top: -10px;
+    box-shadow: 5px 20px 25px #84BFB9;
+}
+
+/*.card:hover img {
+    filter: invert(5);
+}*/
+
+.card:hover .content p{
+    color: #365959;
+}
+
+.card:hover .content a{
+    color: #277365bb;
+    font-weight: bolder;
+
+}
